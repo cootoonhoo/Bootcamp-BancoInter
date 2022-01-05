@@ -1,0 +1,25 @@
+Introdução a Git e Github
+
+Comandos de terminais
+
+
+dir     Fazer uma lista de arquivos e pastas no diretório atual
+cd      Entra no diretório declarado
+    cd .. retorna um diretório
+cls     Comando para limpar a tela do terminal
+mkdir   Comando para criar uma pasta/diretório
+rmdir   Comando para deletar o diretório
+    * Detalhe, usar o comando del só deltará os arquivos dentro do diretório
+
+
+Arquitetura do GIT
+
+
+Pra cada arquivo do git, existem mata dados que classificam o objeto dentro do diretório,
+além de ter o processo de encriptação pela metodologia sha1.
+
+Além disso, dentro de trees é possível encontrar outras trees, por fim o comit junta todas essas informações
+e envia para um servidor. Nesse commit tem vários dados, como autor, data, horários. Vale ressaltar que dentro do
+comit existe uma encriptação sha1 dentro dela. Ou seja, existe uma cadeia de encripatação que garante a segurança do aplicativo.
+
+
