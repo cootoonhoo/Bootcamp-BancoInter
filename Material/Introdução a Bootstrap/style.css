@@ -1,0 +1,38 @@
+#quemsomos{
+    background: #dddddd;
+}
+.navbar{
+    background: #f0f0f0;
+}
+.margem{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.img{
+    margin-top: 25px;
+    background: #505050;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+.post-text{
+    padding: 0 30% 0 30%;
+    text-align: justify;
+}
+.final{
+    background: #303030
+}
+.col-lg-4{
+    padding: 15px 0px;
+}
+.imgf{
+    border-radius: 100%;
+}
+.textf{
+    padding-top: 15px;
+    color: #dddddd;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}

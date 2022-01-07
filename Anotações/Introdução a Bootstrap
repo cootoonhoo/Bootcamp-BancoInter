@@ -1,0 +1,7 @@
+Noções aprendidas na hora de criar o site
+
+- Dá pra colocar mais de uma classe dentro de uma tag, só é necessário darmos espaços e colocar o nome da classe
+- É possível acessar uma ancora dentro do site por meio de um ID
+- Quando formos usar boostrap é interessante termos a documentação ao lado para aumentar a produtividade (POR ENQUANTO)
+- Tomar cuidado pra não fazer muito CSS ao inves de boostrap.
+- Podemos usar text-center para imagens DENTRO DO BOOSTRAP!!!!!
