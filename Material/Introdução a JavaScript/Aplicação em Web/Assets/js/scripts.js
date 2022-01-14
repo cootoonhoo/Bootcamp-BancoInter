@@ -35,6 +35,5 @@ document.getElementById("subtrair").addEventListener("click", function (){
     if(currentNum < 0){
         var currentNumCss = document.getElementById("currentNumber");
         currentNumCss.style.color = 'red';
-        currentNumCss.style.paddingTop = '10px';
     }
 });

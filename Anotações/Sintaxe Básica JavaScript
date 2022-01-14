@@ -1,0 +1,20 @@
+Declarações
+
+var -> Escopo global e local, pode ter seu valor alterado e recebe null se não for declarada com valores.
+let -> Escopo local de bloco, seu valor pode ser alterado e recebe null quando não declarada com valores.
+const -> Valor constante, somente leitura e necessáriamente deve receber uma declaração de valore.
+
+Escopo
+
+Global - Quando a variável é declarada fora de qualquer bloco, fica disponível para todo código.
+Local - Quando a variável é exclusiva para um bloco, como For, while...
+
+Manipulação de arrays
+forEach() - itera um aray
+push() - adiciona um item no final do array
+pop() - remove item no final do array
+shift() - remove item no início do aray
+unshift() - adiciona um item no começo do array
+indexOf() - Indice de um valor
+splice() - remove ou substitui um item pelo índice
+slice() - retorna uma parte de um aray existente
