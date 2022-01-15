@@ -1,0 +1,11 @@
+-------------ATENÇÃO-----------
+
+== - Valor iguais (2 == "2" -> true)
+=== - Checagem de tipo (2 == "2" -> false)
+!= - Diferença
+!== - Diferença e tipagem diferente
+
+Condicional ternário
+
+ x = 1 ? print("Correto") : print("Errado")
+ condição : Codigo True : Codigo False
