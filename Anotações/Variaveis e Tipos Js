@@ -1,0 +1,10 @@
+Dentro do java script usamos o Camel Case como boa prática de codigo. Ou seja, uma variavel com nome Materiais Estocados Casa recebe o nome de materiaisEstocadosCasa
+
+var -> variavel global
+let -> variavel local
+
+const -> constante local;
+
+Obs : Por conta de segurança, use let para limitar o acesso ao dado.
+
+Constantes -> São decalradas em Snake Upper Case, ou seja MATERIAIS_ESTOCADOS_CASA
