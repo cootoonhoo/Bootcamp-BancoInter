@@ -1,0 +1,11 @@
+Pilares
+
+Abstração -> A ideia é criar um programa extremamente complexo, aumentando sua complexidade gradualmente por níveis.
+Herança -> Herdar caracteristicas do script pai
+
+Java Script orientado a objetos
+
+Protótipos -> São funções dentro de uma classe pai. Monobehaviour do Unity
+Classe -> Apenas pra facilitar a escrita.
+
+super - protected override basicamente
