@@ -1,0 +1,20 @@
+Map
+
+const myMap = new Map() <-- Declaração
+
+Set (arg1,arg2) - Criar um argumento de objeto do tipo Arg1 => Arg 2
+Get - Acha o valor do argumento do objeto
+Delet - delta o argumento
+
+Map tem lengh, é iteravel, os valores tem o mesmo tipo sempre
+
+Sets
+São estruturas que armazenam apenas um unico tipo de valor
+
+const mySet = new Set()
+
+Add - adiciona um valor
+Has - verifica se existe esse valor dentro do set
+delete - delta o valor
+
+Dá pra pegar o tamanho pelo size, não possiu vários métodos.
