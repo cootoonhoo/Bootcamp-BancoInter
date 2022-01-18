@@ -1,0 +1,24 @@
+Promises
+Inicialmente seu valor é desconhecido, mas ele pode ser resolvido ou rejeitado.
+
+Peding - Pendenten
+Fulfilled - Completada
+Rejected - Rejeitada
+
+Declaramos ela comom new Promise, do tipo const myPromise = new Promise(...)
+
+await -> Encadiar algumas chamadas em situações de caso de certo ou errada
+
+Async/await
+Devemos inicar uma função async para que possamos acessar o await
+
+Se chamarmos uma promessa sem usar o await, o output sera outra promessa. Sendoa assim, necessário utilizamos await para que consegamos um feedback
+
+Consumir APis
+Intermediar o back com o front end;
+
+fetch -> fetch(url, options)
+.then(response => response.json())
+.then(json => console.log(json))
+
+devemos usar o await.
