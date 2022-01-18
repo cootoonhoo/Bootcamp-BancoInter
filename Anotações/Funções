@@ -1,0 +1,25 @@
+Tipos de funções
+
+Funções anonimas, são funções que não precisam ter nome, geralmente são correlacionadas a uma declaração de variável.
+Auto invocável, são funções que executam automaticamente. Basta colocar (); após a declaração da função.
+Callbacks, são funções que entram dentro de argumentos de funções.
+
+Parâmetros
+Objecto arguments, dentro de funções podemos enviar infinitos argumentos, podemos acessar esses valores pelo código "arguments"
+Spread é uma forma de lidar separadamente com elementos, para que usamos um array como argumento e queremos que todos os valores façam parte do argument de função
+devemos colocar ..."nome do array" dentro dos ( ) da função.
+Rest é o oposto do spread, que pega todos os argumentos e os alocam em um array.
+Object Destructuring -> usamos { } e colocamos a tag especifica de um objeto.
+
+Loops
+O switch sempre compara em "===" e usamos o default(como se fosse um else)
+
+This
+This é uma referência para o contexto interno.
+Dentro de um objeto ele puxa o valor dentro do dono.
+Sozinha, se refere ao objeto global
+Funções, ao objeto global
+Evento, é o pai que gera esse evento.
+
+Arrow functions
+Não faz hoisting.
