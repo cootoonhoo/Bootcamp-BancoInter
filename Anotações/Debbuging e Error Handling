@@ -1,0 +1,15 @@
+ECMAScript Error
+São erros que ocorrem em tempo de execução.
+
+DOMException
+São erros exclusivos em websites.
+
+Throw
+Ele trata a string e apresenta ela no console como um erro.
+
+Try e catch
+São usados para testar o código e manipular o erro com o cath de um jeito mais personalizado.
+
+Finally
+Instrução que executa de qualquer forma após a execução do Try ... catch
+
