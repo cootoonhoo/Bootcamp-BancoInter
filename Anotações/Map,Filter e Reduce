@@ -1,0 +1,27 @@
+Aula de Map
+
+Mapping function é como se fosse uma função que leva um numero do conjuto A para um conjunto B.
+Ela não modifica o array original, ele cria um novo.
+    Sintaxe
+    array.map(callback, thisArg)
+    callback -> function a ser executada dentro do array
+    thisArg -> Apenas para mudar o valor do this dentro do array
+
+    Map vs foreach
+    Dentro do foreach não conseguimos usar uma função. Já no map sim.
+
+Aula de Filter
+
+É como se colocassemos todos os itens de um array, filtra seguindo um termo e em seguida cria um novo array que corresponde ao filtro selecionado.
+    Sintaxe
+    array.filter(callback, thisArg)
+    Bem semelhante ao Map
+
+Aula de Reduce
+
+Ele executa uma função em todos os elementos do array e retorna um elementro único.
+    Sintaxe
+    array.Reduce(callback, initialValue)
+    callback -> function a ser executa dentro do array
+    initialValue -> valor sobre qual o retorno final irá atuar
+
