@@ -1,0 +1,16 @@
+DOM é um padrão utilizado para acessar e modificar os elementos HTML de uma pagina.
+BOM -> É a árvore de dependências geral, como document, history, location, screen e navigator
+
+Como manipular o DOM?
+https://developer.mozilla.org/pt-BR/docs/Web/API/Document
+
+Basicamente usaremos o docummnet.getelementeby...
+
+Mesma coisa com o Stylesheet
+
+Usaremos basicamente element.classlist
+
+Eventos
+
+add.EventListener("tipo do evento", outra func)
+Dentro do html com onclick.
