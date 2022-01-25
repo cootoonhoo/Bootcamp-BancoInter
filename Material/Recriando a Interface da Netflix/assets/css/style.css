@@ -1,0 +1,123 @@
+@import url('http://fonts.cdnfonts.com/css/codec-pro');
+
+:root{
+    --azul:#8CE6E6;
+    --preto:#384040;
+    --cinza: #cccccc;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/* Elementos base */
+
+body{
+    background: var(--preto);
+    color: white;
+    font-family: 'Codec Pro', sans-serif;
+    font-weight: lighter;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.jogo-principal .container{
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+header div nav{
+    padding-top: 10px;
+}
+
+header div .logo{
+    color: var(--azul);
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--cinza);
+    font-family: 'Codec Pro', sans-serif;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: var(--azul);
+}
+h2{
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+footer{
+    padding-top: 90px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* Coisas relacionadas ao jogo principal*/
+.jogo-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%),url('/Material/Recriando\ a\ Interface\ da\ Netflix/assets/img/main-bg.jpg');
+    height: 700px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.jogo-principal .descricao{
+    margin-bottom: 15px;
+    text-align: justify;
+    width: 50%;
+}
+.jogo-principal .titulo{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+.botao{
+    background-color: rgba(0, 238, 255, 0.363);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-right: 15px;
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.botao:hover{
+    background-color: rgba(0, 238, 255, 0.582);
+
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-filmes{
+    margin-top: 15px;
+}
+.owl-carousel.owl-loaded{
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.247);
+}
