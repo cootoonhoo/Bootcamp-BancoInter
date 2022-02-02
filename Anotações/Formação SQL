@@ -1,0 +1,15 @@
+ORM -> Componentes para abstrair consultas, ou seja, é um método
+para facilitar as consultas, com OOP.
+
+SQL -> É uma lingua que permite conversar com um banco de dados.
+Trouxe um padrão de desnvolvimento para todos os dados. Tanto em
+Orcale, Posrt... e MySQL
+
+* -> Expressa tudo dentro da tabela.
+
+Tomar cuidado com as keywords, para que não haja uma sobrecarregamento
+do sistema, onde as tabelas ficam superdependestes delas mesmas.
+
+Modelagem de um banco de dados
+Analisar e estudar como os objetos de um cliente se relacionam. Observar a
+estruturação dos dados.  
