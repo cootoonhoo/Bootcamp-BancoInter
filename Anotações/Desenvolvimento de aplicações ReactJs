@@ -1,0 +1,17 @@
+Estilização
+
+    Inline -> Podemos usar um json para estilizarmos pelo método style do HTML. É possível usar o Json de estilo de uma forma bruta, sem utilizar variáveis.
+        Geralmente usamos as tags em css em camelCase
+        Vantages: Prática e direta e  é facilmente ajustada
+        Contra: Em larga escala fica muito complexo entender oque esta acontecendo
+
+    Class -> Podemos criar um arquivo css e importa-lo via Js e apartir disso colocar um className dento das tags utilizadas no react.
+        É bem modular a criação de estilos, porém é muito complexo manter o arquivo. Sendo possível conflito com nomes, dificil de flexibilizar o código e é chatão
+
+    CSS in Js -> (styled-components) 
+        É facil de estilizar, fica muito dinâmico usando os props, a performance dele é muito boa e ele injeta automaticamente prefixos vendor.
+
+Stateful e Stateless
+    - Usar estados e não usar estados
+    Stateful -> É construido por classe, possui um ciclo de vida
+    
