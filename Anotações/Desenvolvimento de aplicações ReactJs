@@ -14,4 +14,74 @@ Estilização
 Stateful e Stateless
     - Usar estados e não usar estados
     Stateful -> É construido por classe, possui um ciclo de vida
+
+Formulários em React
+    Dentro do react, os formulários são internos dentro do DOM. (Usamos a tag lable)
+    Componentes controlado: Quando um estados recebem um atributo value que pode ser modificado pelo ReactJs, pelo atributo onChange.
+    Puxamos o value por (this.state.value)
+
+    pra Checkbox usamos a tag checked ao invés de value e usamos o onChange.
+
+    Componenter não-controlado: 
+        A tag input é read-only. A ideia é fazer todos os componentes controlados. Menos em inputs de arquivos.
+    Devemos colocar uma referência padrão oferecida pelo react para que o formulário funcione.
+
+    Os forms do react são muito complexos, podemos usar bibliotecas como Formik ou redux-forms para que seja mais fácil criar formulários.
+
+Introdução ao Redux e fluxos da arquitetura
+    Oque é Flux? É uma arquitetura criada pelo Fb para interação entre componentes. É um padrão de projeto para tráfego de dados
+        Action -> Quando devemos formtar a mensagem a ser enviada
+        Dispatcher -> Ele sabe todos os callbacks para diferentes stores
+        Store -> Guarda todas as informações e as altera.(SÓ ELE)
+        View -> É um gerente que recebe as notificações do store e passa os dados para o react
+
+    Oque é Redux?
+    É uma implementação do flux.
+    Uma unica store, todos os states são read-only e as mudanças são feitas com pure funcions, ou seja, são imutaveis.
+
+    Actions -> Não envia as actions para o dispatcehr, sempre retornar um action formatado
+
+    Store -> Cuida de todas as árvores de estadados
+    Reducers -> Simplifica e divide o trabalho da store e auxlia em descobrir os estados
+
+    Views e Reacts -> Adiciona a camada View 3 novos conceitos (React Redux)
+
+Comunicação avançadas entre aplicações
+    Rest HTTP com React
+        Apis HTTP -> Servem pra conecta a um ou mais servidores HTTP
+        Bibliotecas: Fetch API e Axios
+
+    Imutabilidade
+    Uma vez criada, não pode ser alterada. 
+    Novas coleções podem ser criadas a partir de uma coleção anterior com um mutação
+    Novas coleções são criadas usando o máximo possível da estrutura original.
+    Auxilia na performance do React.
+
+    A imutabilidade é pré requisito no Redux, para que a store seja segura.
+        Reducers, são pedaços da store e  o combineReduces checa por comparações rasas.
+
+    Redux + rest
+    API de serviço:
+    Um sistema de log deve sempre estar sincronizado com o render.
+    Middlewares -> É um "update" das funções que o redux oferece.
+    redux-thunk ou redux-saga.
+
+Qualidade de código e automação de testes.
+    TDD e BDD com jest:
+    Tdd -> Test-Driven Development (Desenvolvimento orientado a teste)
+    Escrever um código para antecipar erros. 
+        Teste unitário - Testar as unidades de uma aplicação
+        E2E (end-to-end)-> Testar o fluxo, ponta a ponta
+    Biblioeteca para teste = Jest, React-testing-libary, Shallow,Selenium, etc..
+
+    BDD
+    Bdd -> Behavior-Driven Development
+    Une especificação, teste automatizado e premissa de teste.
+        Sintaxe Gherkin -> Sintaze de steps para definir cenários.
+        Código pra auxiliar o computador a entender o seu objetivo com o programa
+
+    Debugging
+    Processo de encontrar erros dentro do programa. Usar debugger durante a linha, ele entra no modo debugger pelo chrome.
+
+    Tratamento de erros
     
