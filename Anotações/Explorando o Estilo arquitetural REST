@@ -1,0 +1,8 @@
+API Rest ->
+    Criar um microserviço de autenticação para facilitar a aplicação desse método
+    em outros aplicativos.
+
+    BaseAhutentication -> Vem do HTTP mesmo e é bem básico.
+    
+    
+
