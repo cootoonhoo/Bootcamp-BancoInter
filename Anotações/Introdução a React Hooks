@@ -1,0 +1,8 @@
+Anotações
+
+Boas práticas:
+    Ja pensar em criar um teste pra ter uma ideia se o texto esta renderizando.
+    Em seguida ele aplica o TDD, criando uma verificação para ver se o botão é renderizado.
+    Além disso ele verifica se há uma img e um elemento de texto.
+    Uso da função getByRole("tag")
+    O professor usou uma biblioteca chamada testing-library (Estudar essa biblioteca)
