@@ -1,0 +1,14 @@
+Conexão entre o node e um servidor SQL
+    - estudar o node-pg
+    ElephantSQL -> Site para estudar banco de dados gratuito.
+    Estudar o crypto do pgcrypt
+
+    É interesante salvar o script de criação de tabela SQL, já que vc pode exportar para qualquer interface SQL;
+    Ao criar uma tabela recomenda-se criar um insert para que haja ao menos um admin, numa aplicação de autenticação.
+
+    Interface: É um contrato
+    Classe: É uma derivação de um objeto
+    Type: é uma definição (regras de como deve ser um object)
+
+    
+
