@@ -4,5 +4,31 @@ Boas práticas:
     Ja pensar em criar um teste pra ter uma ideia se o texto esta renderizando.
     Em seguida ele aplica o TDD, criando uma verificação para ver se o botão é renderizado.
     Além disso ele verifica se há uma img e um elemento de texto.
-    Uso da função getByRole("tag")
+    Uso da função getByRole("tag") ou por findByText("tag")
     O professor usou uma biblioteca chamada testing-library (Estudar essa biblioteca)
+    Criar teste para cada arquivo dentro do projeto.
+    Tipagem -> É boa pratica de programação para que seja facil encontrar problemas em certas propriedades.
+    Ficando mais fácil de notar problemas ao longo do código.
+
+    É interessante utilizar a biblioteca msw para testar serviceWork para testar a api. Simula-se requisições da api.
+
+Styled-components (estudar essa biblioteca):
+    A ideia é implementar um css global. O professor criar um Content.
+    Ele declara por 
+    styled.div'
+    -- CSS-code --
+    ';
+
+    jest.fn() -> É uma função espiã, que avisa se uma função foi chamada. 
+    Ou seja, caso você não tenha a função pronta, o jest funciona como um place holder
+    
+Mockando a API:
+    Criação de uma pastar chamda services, para expecificar dados vindo de uma api. Assim, cria-se um js específico para a api.
+    É muito importante criar um sevidor fictício no teste de api para que o teste seja mais rápido.
+    Assim não é necessário esperar a respota do servidor real da API.
+
+Variáveis de ambiente:
+    São variaveis que vão valer pelo projeto inteiro. Desse modo, quando a API/Projeto for a público, basta apenas mudar o valor dessas envs. Facilitando tanto o desenvolvimento quant oa aplicação.
+    
+
+
