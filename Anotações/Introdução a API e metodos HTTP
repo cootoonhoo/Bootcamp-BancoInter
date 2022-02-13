@@ -1,0 +1,27 @@
+O que é API?
+    É uma camada que esconde as regras e comunica externamente.
+    Facilita integração entre serviços de uma empresa. Sendo autentico ou não
+
+Http metodos                            Padrão              Erros
+
+    Get -> Obtem dados                  /api/dev/user       /api/dev/user{ID}    
+    Post -> Cria um novo registo        /api/dev/user       /api/dev/user/create    
+    Put -> Atualiza um novo registro    /api/dev/user{id}   /api/dev/user
+    Delete -> Remove um registro        /api/dev/user{id}   /api/dev/user?id=2
+
+Status Codes
+
+2xx = Sucesso
+4xx = Erro no cliente
+5xx = Erro server side
+
+Comuns:
+    200 Deu certo
+    401 Não autorizado
+    403 Proibido
+    404 Não encontrado
+    500 Erro interno do servidor
+    504 Timeout do Gateway
+
+Lab ->
+
